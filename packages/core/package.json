@@ -1,25 +1,23 @@
 {
-  "name": "@kane-cli/core",
-  "version": "1.0.2",
-  "description": "kane-cli core",
-  "author": "tom <odinzero@outlook.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/core.js",
-  "bin": {
-    "kane-cli": "bin/index.js"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "node ./__tests__/core.test.js"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@kane-cli/core",
+	"version": "1.0.2",
+	"description": "kane-cli core",
+	"author": "tom <odinzero@outlook.com>",
+	"homepage": "",
+	"license": "ISC",
+	"main": "dist/core.js",
+	"bin": {
+		"kane-cli": "dist/index.js"
+	},
+	"scripts": {
+		"dev": "tsc -b -w",
+		"build": "tsc -b",
+		"clean": "rimraf tsconfig.tsbuildinfo dist"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"typescript": "^4.9.5"
+	}
 }
