@@ -1,21 +1,25 @@
 {
-	"name": "@kane-cli/utils",
-	"version": "1.0.2",
-	"description": "kane-cli utils",
-	"author": "tom <odinzero@outlook.com>",
-	"homepage": "",
-	"license": "ISC",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"scripts": {
-		"dev": "tsc -b -w",
-    "build": "tsc -b",
-		"clean": "rimraf tsconfig.tsbuildinfo dist"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"dependencies": {
-		"typescript": "^4.9.5"
+	"0": {
+		"manifest": {
+			"name": "@kane-cli/utils",
+			"version": "1.0.2",
+			"description": "kane-cli utils",
+			"author": "tom <odinzero@outlook.com>",
+			"homepage": "",
+			"license": "ISC",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"dev": "tsc -b -w",
+				"build": "tsc -b",
+				"clean": "rimraf tsconfig.tsbuildinfo dist"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"typescript": "^4.9.5"
+			}
+		}
 	}
 }
