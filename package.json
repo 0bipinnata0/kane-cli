@@ -4,6 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"dev": "pnpm -r dev",
+		"clean":"pnpm -r clean"
 	},
 	"keywords": [],
 	"author": "",

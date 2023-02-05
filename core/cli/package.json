@@ -5,9 +5,9 @@
 	"author": "tom <odinzero@outlook.com>",
 	"homepage": "",
 	"license": "ISC",
-	"main": "dist/core.js",
+	"main": "dist/src/index.js",
 	"bin": {
-		"kane-cli": "dist/index.js"
+		"kane-cli": "dist/src/index.js"
 	},
 	"scripts": {
 		"dev": "tsc -b -w",
