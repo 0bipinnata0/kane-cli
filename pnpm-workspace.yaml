@@ -1,6 +1,6 @@
 packages:
-  - "commands/*"
-  - "core/*"
-  - "models/*"
-  - "utils/*"
-  - "!**/test/**"
+  - 'commands/*'
+  - 'utils/*'
+  - 'core/*'
+  - 'models/*'
+  - '!**/test/**'

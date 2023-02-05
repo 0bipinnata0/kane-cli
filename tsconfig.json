@@ -1,0 +1,14 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "utils/log"
+		},
+		{
+			"path": "utils/utils"
+		},
+		{
+			"path": "core/cli"
+		}
+	]
+}

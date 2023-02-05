@@ -38,18 +38,30 @@ importers:
 
   core/cli:
     specifiers:
+      '@kane-cli/log': workspace:^1.0.3
       '@types/import-local': ^3.1.0
       '@types/npmlog': ^4.1.4
       import-local: ^3.1.0
       npmlog: ^7.0.1
       typescript: ^4.9.5
     dependencies:
+      '@kane-cli/log': link:../../utils/log
       import-local: 3.1.0
       npmlog: 7.0.1
       typescript: 4.9.5
     devDependencies:
       '@types/import-local': 3.1.0
       '@types/npmlog': 4.1.4
+
+  utils/log:
+    specifiers:
+      '@types/npmlog': ^4.1.4
+      npmlog: ^7.0.1
+      typescript: ^4.9.5
+    dependencies:
+      '@types/npmlog': 4.1.4
+      npmlog: 7.0.1
+      typescript: 4.9.5
 
   utils/utils:
     specifiers:
@@ -1271,7 +1283,6 @@ packages:
 
   /@types/npmlog/4.1.4:
     resolution: {integrity: sha512-WKG4gTr8przEZBiJ5r3s8ZIAoMXNbOgQ+j/d5O4X3x6kZJRLNvyUJuUK/KoG3+8BaOHPhp2m7WC6JKKeovDSzQ==}
-    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}

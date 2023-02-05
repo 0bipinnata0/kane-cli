@@ -1,14 +1,12 @@
 {
-	"name": "@kane-cli/core",
+	"name": "@kane-cli/log",
 	"version": "1.0.3",
-	"description": "kane-cli core",
+	"description": "kane-cli log",
 	"author": "tom <odinzero@outlook.com>",
 	"homepage": "",
 	"license": "ISC",
-	"main": "dist/src/index.js",
-	"bin": {
-		"kane-cli": "dist/src/index.js"
-	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsc -b",
 		"clean": "rimraf tsconfig.tsbuildinfo dist"
@@ -17,13 +15,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@kane-cli/log": "workspace:^1.0.3",
-		"import-local": "^3.1.0",
+		"@types/npmlog": "^4.1.4",
 		"npmlog": "^7.0.1",
 		"typescript": "^4.9.5"
-	},
-	"devDependencies": {
-		"@types/import-local": "^3.1.0",
-		"@types/npmlog": "^4.1.4"
 	}
 }
